@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PhotoMosaic</string>
+    <string name="bImage">Choose from galary</string>
+    <string name="mosaic">Mosaic</string>
+</resources>
