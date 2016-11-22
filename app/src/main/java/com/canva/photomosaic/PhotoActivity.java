@@ -127,7 +127,7 @@ public class PhotoActivity extends AppCompatActivity implements AsyncResponse {
                 Log.d("RGB is ", hexColor + " ");
                 AsyncTaskRunner runner = new AsyncTaskRunner(this);
                 runner.execute(hexColor);
-                //createSocketConnection(hexColor);
+                createSocketConnection(hexColor);
 
                 if(x == noOfTileRows-1 && y == noOfTileColumns-1)
                     flagSet = 1;
